@@ -93,9 +93,9 @@ python run_fm_batch.py --framework [sm | oh | ag] --lv [delf | delif | aef | anf
 
 | Experiment | `--lv` values |
 |---|---|
-| Code generation (`cg`) | `1`, `2`, `3` |
-| Execution (`exec`) | `execute`, `testing` |
-| Function modification (`fm`) | `aef`, `anf`, `delf`, `delif` |
+| Code Generation (`cg`) | `1`, `2`, `3` |
+| System Interaction (`exec`) | `execute`, `testing` |
+| File Management (`fm`) | `aef`, `anf`, `delf`, `delif` |
 
 `aef` = add existing file, `anf` = add new file, `delf` = delete file, `delif` = delete irrelevant file.
 
