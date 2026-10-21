@@ -1,0 +1,99 @@
+1. Complete the function `{function_name}` in the file `{filepath}` using the repository `{repo}` context and update the file accordingly
+
+2. Implement the `{function_name}` function in `{filepath}` according to the `{repo}` repository context and update the file.
+
+3. Use the repository context from `{repo}` to implement `{function_name}` in `{filepath}` and apply the changes directly to the file.
+
+4. Fill in the missing implementation for `{function_name}` in `{filepath}` using relevant code and patterns from `{repo}`.
+
+5. Implement `{function_name}` in `{filepath}` while following the conventions and structure used throughout `{repo}`.
+
+6. Analyze the repository `{repo}`, implement `{function_name}` in `{filepath}`, and write the updated implementation back to the file.
+
+7. Complete the body of `{function_name}` in `{filepath}` using the existing context from `{repo}` and update the file accordingly.
+
+8. Implement the missing logic for `{function_name}` in `{filepath}` by leveraging the repository-wide context from `{repo}`.
+
+9. Update `{filepath}` by implementing `{function_name}` consistently with the coding patterns used in `{repo}`.
+
+10. Use the surrounding repository context in `{repo}` to correctly implement `{function_name}` in `{filepath}` and save the modifications.
+
+11. Implement `{function_name}` in `{filepath}` according to the existing implementation patterns found in `{repo}`.
+
+12. Complete `{function_name}` in `{filepath}` by referencing related code within `{repo}` and updating the file with the implementation.
+
+13. Add a complete implementation for `{function_name}` in `{filepath}` using the repository context from `{repo}` as guidance.
+
+14. Implement `{function_name}` in `{filepath}` while preserving consistency with the architecture and logic of `{repo}`.
+
+15. Use the implementation context in `{repo}` to finish `{function_name}` in `{filepath}` and apply the resulting changes.
+
+16. Implement `{function_name}` in `{filepath}` based on related modules and code patterns in `{repo}`.
+
+17. Complete `{function_name}` within `{filepath}` using contextual information from `{repo}` and update the file accordingly.
+
+18. Fill out `{function_name}` in `{filepath}` by following the coding conventions established across `{repo}`.
+
+19. Implement `{function_name}` in `{filepath}` using relevant definitions and utilities from `{repo}`.
+
+20. Read the repository context in `{repo}`, implement `{function_name}` in `{filepath}`, and persist the changes to the file.
+
+21. Complete the implementation of `{function_name}` in `{filepath}` while adhering to the existing style and logic of `{repo}`.
+
+22. Use the existing implementation details across `{repo}` to implement `{function_name}` in `{filepath}` and update the file.
+
+23. Implement `{function_name}` in `{filepath}` with behavior consistent with the surrounding repository context in `{repo}`.
+
+24. Finish implementing `{function_name}` in `{filepath}` using related code in `{repo}` as reference, then save the updated file.
+
+25. Update `{filepath}` with a complete implementation of `{function_name}` derived from the repository context in `{repo}`.
+
+26. Implement the unfinished `{function_name}` function in `{filepath}` using the existing codebase context from `{repo}`.
+
+27. Use the repository-wide context in `{repo}` to implement `{function_name}` in `{filepath}` and apply the implementation changes directly.
+
+28. Complete `{function_name}` in `{filepath}` while maintaining consistency with adjacent modules and conventions in `{repo}`.
+
+29. Implement `{function_name}` inside `{filepath}` by analyzing related logic and utilities throughout `{repo}`.
+
+30. Add the missing implementation for `{function_name}` in `{filepath}` based on the structure and patterns used in `{repo}`.
+
+31. Implement `{function_name}` in `{filepath}` using similar functions and code patterns found in `{repo}` as guidance.
+
+32. Complete `{function_name}` in `{filepath}` and update the file while preserving compatibility with the rest of `{repo}`.
+
+33. Use the repository context from `{repo}` to properly implement `{function_name}` in `{filepath}`.
+
+34. Implement `{function_name}` in `{filepath}` according to the established logic and coding style of `{repo}`.
+
+35. Complete the logic for `{function_name}` in `{filepath}` by leveraging the context already available throughout `{repo}`.
+
+36. Implement `{function_name}` in `{filepath}` using the repository structure and related implementations in `{repo}` as reference.
+
+37. Update `{filepath}` by filling in the implementation details for `{function_name}` using the context from `{repo}`.
+
+38. Implement `{function_name}` in `{filepath}` with reference to existing implementations and utilities in `{repo}`.
+
+39. Finish the implementation of `{function_name}` in `{filepath}` while staying aligned with the repository-wide logic in `{repo}`.
+
+40. Use the code context in `{repo}` to implement `{function_name}` in `{filepath}` and save the completed implementation.
+
+41. Implement `{function_name}` in `{filepath}` by following implementation patterns already used throughout `{repo}`.
+
+42. Complete `{function_name}` in `{filepath}` using contextual clues from related files and modules in `{repo}`.
+
+43. Implement the required functionality for `{function_name}` in `{filepath}` using the surrounding repository context from `{repo}`.
+
+44. Modify `{filepath}` to include a full implementation of `{function_name}` consistent with the codebase conventions in `{repo}`.
+
+45. Complete `{function_name}` in `{filepath}` using the repository’s current implementation style and surrounding logic.
+
+46. Implement `{function_name}` in `{filepath}` by interpreting and following the context provided across `{repo}`.
+
+47. Use the existing code in `{repo}` to infer and implement the correct behavior for `{function_name}` in `{filepath}`.
+
+48. Implement `{function_name}` in `{filepath}` and integrate it consistently with the rest of the repository `{repo}`.
+
+49. Complete the implementation of `{function_name}` in `{filepath}` using related code from `{repo}` as contextual guidance.
+
+50. Implement `{function_name}` in `{filepath}` based on the existing repository context in `{repo}` and update the file with the completed function.

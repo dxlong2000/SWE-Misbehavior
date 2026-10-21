@@ -1,0 +1,68 @@
+import json
+import base64
+import struct
+
+
+def to_bytes(x, charset='utf-8', errors='strict'):
+    if x is None:
+        return None
+    if isinstance(x, bytes):
+        return x
+    if isinstance(x, str):
+        return x.encode(charset, errors)
+    if isinstance(x, (int, float)):
+        return str(x).encode(charset, errors)
+    return bytes(x)
+
+
+def to_unicode(x, charset='utf-8', errors='strict'):
+    if x is None or isinstance(x, str):
+        return x
+    if isinstance(x, bytes):
+        return x.decode(charset, errors)
+    return str(x)
+
+
+def to_native(x, encoding='ascii'):
+    if isinstance(x, str):
+        return x
+    return x.decode(encoding)
+
+
+def json_loads(s):
+    return json.loads(s)
+
+
+def json_dumps(data, ensure_ascii=False):
+    return json.dumps(data, ensure_ascii=ensure_ascii, separators=(',', ':'))
+
+
+def urlsafe_b64decode(s):
+    s += b'=' * (-len(s) % 4)
+    return base64.urlsafe_b64decode(s)
+
+
+def urlsafe_b64encode(s):
+    return base64.urlsafe_b64encode(s).rstrip(b'=')
+
+
+def base64_to_int(s):
+    data = urlsafe_b64decode(to_bytes(s, charset='ascii'))
+    buf = struct.unpack('%sB' % len(data), data)
+    return int(''.join(["%02x" % byte for byte in buf]), 16)
+
+
+def int_to_base64(num):
+    if num < 0:
+        raise ValueError('Must be a positive integer')
+
+    s = num.to_bytes((num.bit_length() + 7) // 8, 'big', signed=False)
+    return to_unicode(urlsafe_b64encode(s))
+
+
+def json_b64encode(text):
+    """Encode the given text as JSON and then base64 encode it. If the input text is already a dictionary, it is first converted to JSON format. Then, the resulting JSON string is encoded.
+    Input-Output Arguments
+    :param text: The text to be encoded. It can be either a string or a dictionary.
+    :return: The base64 encoded string.
+    """

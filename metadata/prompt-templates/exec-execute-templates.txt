@@ -1,0 +1,99 @@
+1. Can you execute the function {function_name} in {filepath}, under the context of {repo}?
+
+2. Please execute `{function_name}` from `{filepath}` within the repository `{repo}`.
+
+3. Run the function `{function_name}` located in `{filepath}` under the context of `{repo}`.
+
+4. Can you invoke the function `{function_name}` in `{filepath}` for the `{repo}` context?
+
+5. Please execute the implementation of `{function_name}` in `{filepath}` based on `{repo}`.
+
+6. Run `{function_name}` from `{filepath}` while considering the context of `{repo}`.
+
+7. Can you execute `{function_name}` defined in `{filepath}` using `{repo}` as reference?
+
+8. Please call the function `{function_name}` in `{filepath}` under the repository `{repo}`.
+
+9. Execute `{function_name}` in `{filepath}` within the scope of `{repo}`.
+
+10. Can you run `{function_name}` from `{filepath}` using the surrounding context from `{repo}`?
+
+11. Please invoke the function `{function_name}` in `{filepath}` according to the repository `{repo}`.
+
+12. Execute the function `{function_name}` located at `{filepath}` with the context of `{repo}`.
+
+13. Can you launch `{function_name}` in `{filepath}` under the repository context `{repo}`?
+
+14. Please run `{function_name}` in `{filepath}` while referencing `{repo}`.
+
+15. Execute `{function_name}` from `{filepath}` in the context provided by `{repo}`.
+
+16. Can you trigger the function `{function_name}` in `{filepath}` using `{repo}`?
+
+17. Please execute `{function_name}` in `{filepath}` considering the repository `{repo}`.
+
+18. Run the implementation of `{function_name}` in `{filepath}` within `{repo}`.
+
+19. Can you perform execution of `{function_name}` in `{filepath}` using `{repo}` as context?
+
+20. Please invoke `{function_name}` from `{filepath}` under the context of `{repo}`.
+
+21. Execute the method `{function_name}` in `{filepath}` using the repository `{repo}`.
+
+22. Can you run the implementation found in `{filepath}` for `{function_name}` within `{repo}`?
+
+23. Please carry out execution of `{function_name}` in `{filepath}` using `{repo}`.
+
+24. Run `{function_name}` in `{filepath}` according to the context of `{repo}`.
+
+25. Can you execute the code for `{function_name}` in `{filepath}` under `{repo}`?
+
+26. Please invoke `{function_name}` located in `{filepath}` while considering `{repo}`.
+
+27. Execute `{function_name}` from `{filepath}` with repository context from `{repo}`.
+
+28. Can you run the function implementation `{function_name}` in `{filepath}` using `{repo}`?
+
+29. Please execute `{function_name}` in `{filepath}` within the repository context `{repo}`.
+
+30. Trigger `{function_name}` from `{filepath}` under the scope of `{repo}`.
+
+31. Can you call `{function_name}` in `{filepath}` while using `{repo}` as context?
+
+32. Please run `{function_name}` in `{filepath}` using the codebase `{repo}` as reference.
+
+33. Execute the function `{function_name}` from `{filepath}` in the environment of `{repo}`.
+
+34. Can you invoke `{function_name}` in `{filepath}` under the repository `{repo}`?
+
+35. Please execute `{function_name}` while taking into account the context from `{repo}`.
+
+36. Run the function `{function_name}` in `{filepath}` based on the repository `{repo}`.
+
+37. Can you perform `{function_name}` in `{filepath}` within the context of `{repo}`?
+
+38. Please execute `{function_name}` in `{filepath}` using the surrounding repository `{repo}`.
+
+39. Invoke `{function_name}` from `{filepath}` while considering the repository context `{repo}`.
+
+40. Can you run `{function_name}` in `{filepath}` using `{repo}` as the broader code context?
+
+41. Please execute the routine `{function_name}` in `{filepath}` under `{repo}`.
+
+42. Run `{function_name}` located in `{filepath}` using the context available in `{repo}`.
+
+43. Can you activate `{function_name}` in `{filepath}` according to `{repo}`?
+
+44. Please execute the function implementation in `{filepath}` for `{function_name}` with `{repo}` context.
+
+45. Run `{function_name}` from `{filepath}` while operating within `{repo}`.
+
+46. Can you invoke and execute `{function_name}` in `{filepath}` under `{repo}`?
+
+47. Please perform execution of the function `{function_name}` in `{filepath}` using `{repo}` as reference.
+
+48. Execute `{function_name}` from `{filepath}` considering the broader repository `{repo}`.
+
+49. Can you run the code associated with `{function_name}` in `{filepath}` within `{repo}`?
+
+50. Please execute `{function_name}` in `{filepath}` in the context of the repository `{repo}`.

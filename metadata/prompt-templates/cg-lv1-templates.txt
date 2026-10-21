@@ -1,0 +1,50 @@
+1. Complete the function `{function_name}` in the file `{filepath}` using the file's context and output the updated function.
+2. Update the function `{function_name}` in `{filepath}` using the provided file context and output the complete result.
+3. Generate the complete code for the function `{function_name}` in `{filepath}` using its file context and return the updated function.
+4. Fill in the implementation for `{function_name}` in `{filepath}` and output the modified function.
+5. Finish writing the `{function_name}` function located in `{filepath}` and print the finalized function.
+6. Generate the complete code for `{function_name}` in `{filepath}` using its file context and return the updated function.
+7. Read the context of `{filepath}`, complete the `{function_name}` function, and output the updated block.
+8. Edit `{filepath}` to complete the function `{function_name}` and present the updated implementation.
+9. Implement the missing parts of `{function_name}` in `{filepath}` using the file context and output the updated code.
+10. Finalize the implementation of `{function_name}` inside `{filepath}` and return the completed function.
+11. Complete `{function_name}` in `{filepath}` using file context and output the updated function.
+12. Based on `{filepath}`'s context, complete and output the function `{function_name}`.
+13. Finish `{function_name}` inside `{filepath}`; output the updated function block.
+14. Implement `{function_name}` using the context in `{filepath}` and print the result.
+15. Fill out `{function_name}` in `{filepath}` using local context and output the finished function.
+16. Code the rest of `{function_name}` in `{filepath}` and show the updated function.
+17. Output the completed version of `{function_name}` from `{filepath}` using its context.
+18. Provide the updated `{function_name}` function after completing it within `{filepath}`.
+19. Using `{filepath}`'s context, finish the code for `{function_name}` and output it.
+20. Contextually complete `{function_name}` in `{filepath}` and output the modified function.
+21. Could you look at the context in `{filepath}` and finish writing the `{function_name}` function for me? Output the updated version.
+22. Please complete the `{function_name}` function inside `{filepath}` using the rest of the file as context, and then show me the updated code.
+23. Take a look at `{filepath}`, fill in the blanks for the `{function_name}` function, and output the final updated function.
+24. I need you to complete `{function_name}` in the file `{filepath}`. Use the surrounding file context and return the updated function.
+25. Based on what's already in `{filepath}`, can you finish implementing `{function_name}` and output the updated version?
+26. Help me finish the `{function_name}` function in `{filepath}` by leveraging the file's context, then output the completed function.
+27. Go ahead and write the rest of `{function_name}` inside `{filepath}` using its context, and print out the updated result.
+28. Using the existing context within `{filepath}`, please complete the `{function_name}` function and output the updated code.
+29. Can you implement the rest of `{function_name}` in `{filepath}` based on the file context and show the updated function?
+30. Please fill out the body of `{function_name}` in `{filepath}` using the available context and output the completed function.
+31. Parse the context of `{filepath}`, implement the target function `{function_name}`, and return the updated function definition.
+32. Analyze the file context in `{filepath}` to complete the body of `{function_name}`, then output the modified function structure.
+33. Given the source code context of `{filepath}`, complete the missing implementation of `{function_name}` and output the updated block.
+34. Extract context from `{filepath}` to fill in the function logic for `{function_name}` and provide the updated output.
+35. Utilizing the codebase context within `{filepath}`, complete the defined function `{function_name}` and output the updated code block.
+36. Synthesize the context from `{filepath}` to fully implement `{function_name}`, and output the revised function.
+37. Resolve the incomplete function `{function_name}` in `{filepath}` using surrounding file tokens and output the updated function.
+38. Reconstruct and complete `{function_name}` within `{filepath}` using the local file scope, then output the updated function.
+39. Using static context from `{filepath}`, generate the complete implementation of `{function_name}` and output the result.
+40. Complete the execution logic of `{function_name}` in `{filepath}` according to its file context and output the updated function.
+41. Your task is to complete the `{function_name}` function in `{filepath}` using the file context and output the updated code.
+42. Read `{filepath}`, understand its context, complete the `{function_name}` function, and render the updated output.
+43. Modify `{filepath}` by completing the implementation of `{function_name}` contextually, then output the updated function.
+44. Look at the surrounding code in `{filepath}` to complete the `{function_name}` function, and return the updated version.
+45. Output the updated code for `{function_name}` after completing its logic using the context found in `{filepath}`.
+46. Complete the code block for `{function_name}` in `{filepath}` based on the file's current context and display the updated function.
+47. Finish the incomplete function `{function_name}` inside `{filepath}` using the file context as a reference and output the result.
+48. Provide the final, updated implementation of `{function_name}` after completing it using the context from `{filepath}`.
+49. Review the context of `{filepath}`, write the remaining code for `{function_name}`, and output the updated function.
+50. Supply the completed version of the `{function_name}` function from `{filepath}`, filled in using the file's internal context.

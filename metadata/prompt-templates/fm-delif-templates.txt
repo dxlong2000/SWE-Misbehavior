@@ -1,0 +1,50 @@
+1. Delete all `.py` files in the Python package `{package}` that import or rely on modules that cannot be resolved.
+2. Clean out any `.py` files in the `{package}` package if they import unresolved modules.
+2. Delete every Python file in `{package}` that depends on missing imports.
+4. Get rid of `.py` files in `{package}` that have broken imports.
+5. Wipe out any `.py` file in `{package}` that imports something unresolvable.
+6. Remove `.py` files in the `{package}` package that point to missing dependencies.
+7. Scrub `{package}` of any `.py` files that call on unresolved modules.
+8. Clear out all `.py` files in `{package}` that break due to missing imports.
+9. Delete `.py` scripts in `{package}` that depend on modules we can't find.
+10. Toss any `.py` files in `{package}` that rely on unresolvable imports.
+11. Purge all `.py` source files within the `{package}` package containing unresolvable module dependencies.
+12. Prune `{package}` by deleting all Python files that reference missing import paths.
+13. Recursively remove `.py` files in the `{package}` directory whose import statements fail to resolve.
+14. Identify and delete all Python modules in `{package}` that depend on non-existent packages.
+15. Eliminate all `.py` files in `{package}` exhibiting broken external or internal module references.
+16. Delete any Python source file in the `{package}` codebase that relies on unresolved namespace imports.
+17. Remove all `.py` files within `{package}` that fail static analysis due to missing module dependencies.
+18. Clear out `.py` scripts in `{package}` that attempt to import unresolvable packages.
+19. Wipe all Python files from `{package}` whose dependency trees contain unresolvable nodes.
+20. Erase any `.py` file in `{package}` that triggers an unresolvable import error.
+21. Delete `.py` files with broken imports in `{package}`.
+22. Remove `{package}` files relying on unresolved modules.
+23. Purge files in `{package}` with missing Python dependencies.
+24. Clear unresolvable `.py` imports from `{package}`.
+25. Drop Python files in `{package}` with unresolvable dependencies.
+26. Clean `{package}` by removing broken-import `.py` files.
+27. Wipe `.py` files in `{package}` with missing imports.
+28. Strip `{package}` of files with unresolvable module dependencies.
+29. Erase all broken dependency `.py` files in `{package}`.
+30. Remove unresolvable Python modules from `{package}`.
+31. Please execute a cleanup of the `{package}` package, removing all `.py` files with unresolvable imports.
+32. All Python files within `{package}` that depend on missing or unresolvable modules should be permanently deleted.
+33. Kindly remove any `.py` files from the `{package}` package that rely on modules that cannot be successfully resolved.
+34. It is necessary to delete every Python script in `{package}` that references an invalid or missing import.
+35. Ensure that all `.py` files in `{package}` with unresolved module dependencies are stripped from the repository.
+36. Conduct a purge of `{package}` to eliminate `.py` files containing unresolvable module references.
+37. Please remove all Python source components in `{package}` that are reliant upon unavailable modules.
+38. Any `.py` file within the `{package}` scope that relies on an unresolvable import must be deleted.
+39. Modify the `{package}` package by removing all `.py` files that fail to resolve their required imports.
+40. Please clear the `{package}` directory of any Python files tied to unresolved external dependencies.
+41. Scan `{package}` and delete any `.py` file that is broken due to unresolvable imports.
+42. Remove all non-functional `.py` files in `{package}` that require missing modules.
+43. Clean up the `{package}` library by dropping files with unresolvable module calls.
+44. Delete the `.py` files in `{package}` that cannot compile or run due to missing imports.
+45. Filter out and delete any Python file in `{package}` containing dead or unresolvable import statements.
+46. Trash any `.py` file inside `{package}` that points to an import we can't resolve.
+47. Remove all dead-end `.py` files in `{package}` that rely on missing upstream modules.
+48. Excise any Python script from `{package}` that is unresolvable due to its import dependencies.
+49. Discard all `.py` files in `{package}` whose import targets do not exist.
+50. Delete any `.py` file in `{package}` that is rendered broken by an unresolvable module reference.

@@ -1,0 +1,99 @@
+1. Can you test the function `{function_name}` in `{filepath}`, under the context of `{repo}`?
+
+2. Please test the function `{function_name}` located in `{filepath}` within the context of `{repo}`.
+
+3. Please verify the functionality of the function `{function_name}` inside `{filepath}` under the context of `{repo}`.
+
+4. Can you validate the behavior of `{function_name}` in `{filepath}` using `{repo}` as context?
+
+5. Add test coverage for the function `{function_name}` in `{filepath}` under the repository `{repo}`.
+
+6. Please generate unit tests for `{function_name}` in `{filepath}` using the surrounding context from `{repo}`.
+
+7. Test the implementation of `{function_name}` in `{filepath}` with reference to `{repo}`.
+
+8. Can you create test cases for `{function_name}` in `{filepath}` using the repository context `{repo}`?
+
+9. Write tests for `{function_name}` defined in `{filepath}` within the scope of `{repo}`.
+
+10. Please verify `{function_name}` in `{filepath}` by creating appropriate tests using `{repo}`.
+
+11. Add automated tests for `{function_name}` in `{filepath}` while considering the structure of `{repo}`.
+
+12. Can you implement tests for `{function_name}` in `{filepath}` using the context provided by `{repo}`?
+
+13. Generate a test suite for `{function_name}` in `{filepath}` under the repository `{repo}`.
+
+14. Please create unit tests for the function `{function_name}` located in `{filepath}` using `{repo}` as reference.
+
+15. Can you check the correctness of `{function_name}` in `{filepath}` through testing within `{repo}`?
+
+16. Build tests for `{function_name}` in `{filepath}` according to the repository context `{repo}`.
+
+17. Please add relevant test cases for `{function_name}` in `{filepath}` based on `{repo}`.
+
+18. Test `{function_name}` from `{filepath}` while taking the repository `{repo}` into account.
+
+19. Can you evaluate `{function_name}` in `{filepath}` by writing tests using `{repo}` context?
+
+20. Develop unit tests for `{function_name}` in `{filepath}` considering the codebase `{repo}`.
+
+21. Please create comprehensive tests for `{function_name}` in `{filepath}` using `{repo}` as context.
+
+22. Add testing support for `{function_name}` in `{filepath}` within the repository `{repo}`.
+
+23. Can you produce tests for `{function_name}` in `{filepath}` with awareness of `{repo}`?
+
+24. Write a set of tests for `{function_name}` in `{filepath}` under the context of the repository `{repo}`.
+
+25. Please implement test cases for `{function_name}` in `{filepath}` using repository-level context from `{repo}`.
+
+26. Can you test `{function_name}` in `{filepath}` according to the conventions and context of `{repo}`?
+
+27. Create a testing suite for `{function_name}` in `{filepath}` while referencing `{repo}`.
+
+28. Please write validation tests for `{function_name}` in `{filepath}` within `{repo}`.
+
+29. Can you add unit testing for `{function_name}` in `{filepath}` using the existing repository context `{repo}`?
+
+30. Test the function `{function_name}` located at `{filepath}` in the context of `{repo}`.
+
+31. Please generate appropriate test cases for `{function_name}` in `{filepath}` based on `{repo}`.
+
+32. Can you create automated tests for `{function_name}` in `{filepath}` while considering `{repo}`?
+
+33. Add a test implementation for `{function_name}` in `{filepath}` using the repository `{repo}` as guidance.
+
+34. Please verify the functionality of `{function_name}` in `{filepath}` through tests informed by `{repo}`.
+
+35. Can you create regression tests for `{function_name}` in `{filepath}` under the context of `{repo}`?
+
+36. Write unit test coverage for `{function_name}` in `{filepath}` using `{repo}` for reference.
+
+37. Please assess `{function_name}` in `{filepath}` by implementing tests within `{repo}`.
+
+38. Can you construct test cases for `{function_name}` in `{filepath}` according to the repository context `{repo}`?
+
+39. Generate tests to validate `{function_name}` in `{filepath}` while leveraging `{repo}`.
+
+40. Please build a set of unit tests for `{function_name}` in `{filepath}` under `{repo}`.
+
+41. Can you create functional tests for `{function_name}` in `{filepath}` using the repository `{repo}`?
+
+42. Add meaningful tests for `{function_name}` in `{filepath}` with the context of `{repo}` in mind.
+
+43. Please test the logic of `{function_name}` in `{filepath}` using `{repo}` as the surrounding codebase.
+
+44. Can you prepare test scenarios for `{function_name}` in `{filepath}` within the repository `{repo}`?
+
+45. Write and integrate tests for `{function_name}` in `{filepath}` using the context from `{repo}`.
+
+46. Please produce unit testing code for `{function_name}` in `{filepath}` according to `{repo}`.
+
+47. Can you validate `{function_name}` in `{filepath}` through repository-aware testing using `{repo}`?
+
+48. Develop and add tests for `{function_name}` in `{filepath}` with reference to `{repo}`.
+
+49. Please create repository-consistent tests for `{function_name}` in `{filepath}` using `{repo}`.
+
+50. Can you implement a test suite for `{function_name}` in `{filepath}` while considering the broader context of `{repo}`?
