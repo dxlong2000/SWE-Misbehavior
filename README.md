@@ -85,8 +85,8 @@ python run_fm_batch.py --framework [sm | oh | ag] --lv [delf | delif | aef | anf
 | `--num_samples` | | Max samples to run (default: all / 200 / 50) |
 | `--parallel` | | Parallel workers (default: `4`) |
 | `--mnr` | | Max retries on no-response (default: `3`) |
-| `--full_tools` | | Enable full toolset (AST tools, jedi) |
-| `--lessons` | | Append `lessons.txt` guidance to prompt |
+| `--toolsel` | | Enable tool selector (AST tools, jedi) |
+| `--guidelines` | | Enable guideline selector |
 | `--json` | | Metadata file name (default: `samples`) |
 
 ### Levels (`--lv`)
