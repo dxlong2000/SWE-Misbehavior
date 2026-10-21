@@ -41,10 +41,10 @@ Open `experiments/common/config.py` and set:
 API_KEY = "<your OpenRouter API key>"
 ```
 
-`DEVEVAL` is set automatically to the current working directory at import time, so **always run scripts from the `DevEval-old/` root**:
+`DEVEVAL` is set automatically to the current working directory at import time, so **always run scripts from the `SWE-Misbehavior/` root**:
 
 ```bash
-cd DevEval
+cd SWE-Misbehavior
 python experiments/run_cg_batch.py ...
 
 # or
