@@ -56,7 +56,14 @@ See [`metadata/README.md`](metadata/README.md), [`experiments/README.md`](experi
 
 ## 📦 Data Setup
 
-Download the DevEval source tree from [here](https://huggingface.co/datasets/LJ0815/DevEval/blob/main/Source_Code.tar.gz), move the archive into this folder, and run:
+First, run the code below to download the dataset:
+
+```python
+from huggingface_hub import hf_hub_download
+hf_hub_download("duc-anh-2002/SWE-Misbehavior", "Source_Code.tar.gz", repo_type="dataset", local_dir=".")
+```
+
+then run
 
 ```bash
 tar -xzf Source_Code.tar.gz
