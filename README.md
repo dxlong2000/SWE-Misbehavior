@@ -1,6 +1,22 @@
 <h1 align="center">SWE-Misbehavior: Benchmarking and Mitigating Boundary Violations in Software Coding Agents</h1>
 
 <p align="center">
+  Do Xuan Trong<sup>*1,5</sup>, Duc Anh Nguyen<sup>*1,2</sup>, Do Xuan Long<sup>†1,3</sup>, Ngoc-Hai Nguyen<sup>1,4</sup>,
+  Tongyao Zhu<sup>1</sup>, Duy Dinh<sup>1</sup>, Cayden Chik<sup>1</sup>, Cuong Dang<sup>6</sup>, Jiaying Wu<sup>1</sup>, Xuan-Phi Nguyen<sup>7</sup>,
+  Vinh Van Nguyen<sup>5</sup>, Kenji Kawaguchi<sup>1</sup>, Shafiq Joty<sup>7</sup>, Nancy F. Chen<sup>3</sup>, Min-Yen Kan<sup>1</sup>
+</p>
+
+<p align="center">
+  <sup>1</sup>National University of Singapore, <sup>2</sup>University of Virginia, USA,
+  <sup>3</sup>Agency for Science, Technology and Research (A*STAR), Singapore, <sup>4</sup>Tufts University, USA,
+  <sup>5</sup>Vietnam National University, Hanoi, <sup>6</sup>Virginia Tech, USA, <sup>7</sup>Salesforce AI Research, USA
+</p>
+
+<p align="center">
+  <sup>*</sup>Equal contribution. Work done during the internship at WING, NUS. &nbsp; <sup>†</sup>Project lead. Correspondence: <a href="mailto:xuanlong.do@u.nus.edu">xuanlong.do@u.nus.edu</a>
+</p>
+
+<p align="center">
   <a href="https://arxiv.org/abs/2610.18206"><img src="https://img.shields.io/badge/arXiv-2610.18206-b31b1b.svg" alt="arXiv"></a>
   <a href="https://huggingface.co/datasets/duc-anh-2002/SWE-Misbehavior"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-SWE--Misbehavior-ffd21e" alt="Hugging Face Dataset"></a>
   <img src="https://img.shields.io/badge/python-3.12%2B-3776ab?logo=python&logoColor=white" alt="Python 3.12+">
