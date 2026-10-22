@@ -71,6 +71,9 @@ find Source_Code -type d -name "__pycache__" -exec rm -r {} +
 python create_delif_env.py
 ```
 
+> [!NOTE]
+> `Source_Code.tar.gz` is an unmodified copy of [`Source_Code.tar.gz` from DevEval](https://huggingface.co/datasets/LJ0815/DevEval/blob/main/Source_Code.tar.gz) (same SHA256), mirrored so the benchmark is self-contained.
+
 > [!IMPORTANT]
 > `all_*.txt` files and `Source_Code_no_code/` must be present before you run any experiment.
 
