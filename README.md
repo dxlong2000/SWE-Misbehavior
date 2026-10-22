@@ -1,8 +1,4 @@
-<h1 align="center">SWE-Misbehavior</h1>
-
-<p align="center">
-  <b>Benchmarking and Mitigating Boundary Violations in Software Coding Agents</b>
-</p>
+<h1 align="center">SWE-Misbehavior: Benchmarking and Mitigating Boundary Violations in Software Coding Agents</h1>
 
 <p align="center">
   <a href="https://arxiv.org/abs/2610.18206"><img src="https://img.shields.io/badge/arXiv-2610.18206-b31b1b.svg" alt="arXiv"></a>
@@ -217,3 +213,13 @@ If you find SWE-Misbehavior useful, please cite our paper:
 ## 🙏 Acknowledgements
 
 This benchmark is built on the repositories collected by [DevEval](https://huggingface.co/datasets/LJ0815/DevEval).
+
+## ⭐ Star History
+
+<a href="https://www.star-history.com/#dxlong2000/SWE-Misbehavior&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=dxlong2000/SWE-Misbehavior&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=dxlong2000/SWE-Misbehavior&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=dxlong2000/SWE-Misbehavior&type=Date" />
+  </picture>
+</a>
