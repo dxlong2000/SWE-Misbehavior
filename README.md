@@ -1,6 +1,66 @@
-## Data Setup
+<h1 align="center">SWE-Misbehavior</h1>
 
-Download the DevEval dataset from [here](https://huggingface.co/datasets/LJ0815/DevEval/blob/main/Source_Code.tar.gz) and move the archive into this folder, then run:
+<p align="center">
+  <b>Benchmarking and Mitigating Boundary Violations in Software Coding Agents</b>
+</p>
+
+<p align="center">
+  <a href="https://arxiv.org/abs/2610.18206"><img src="https://img.shields.io/badge/arXiv-2610.18206-b31b1b.svg" alt="arXiv"></a>
+  <a href="https://huggingface.co/datasets/duc-anh-2002/SWE-Misbehavior"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-SWE--Misbehavior-ffd21e" alt="Hugging Face Dataset"></a>
+  <img src="https://img.shields.io/badge/python-3.12%2B-3776ab?logo=python&logoColor=white" alt="Python 3.12+">
+  <img src="https://img.shields.io/badge/agents-smolagents%20%7C%20OpenHands%20%7C%20agno-6f42c1" alt="Agent frameworks">
+</p>
+
+---
+
+## 📖 Overview
+
+**SWE-Misbehavior** measures **boundary violations** made by software coding agents, meaning actions that go beyond what the user asked for. Examples include rewriting code around the target function, changing signatures, touching unrelated files, deleting the wrong files, running unrequested commands, or skipping files the agent needed to read.
+
+The benchmark has **7,427 task instances** in **3 task families** and **9 subsets**. All are built on real-world Python repositories from [DevEval](https://huggingface.co/datasets/LJ0815/DevEval), and each instance comes with **50 paraphrased prompt variants**.
+
+| Task family | Subsets | # Samples |
+|---|---|---:|
+| 🧩 Code Generation (`cg`) | `lv1` · `lv2` · `lv3` | 3,076 |
+| ⚙️ System Interaction (`exec`) | `execute` · `testing` | 1,140 |
+| 📁 File Management (`fm`) | `aef` · `anf` · `delf` · `delif` | 3,211 |
+
+🤗 **The dataset is on the Hugging Face Hub: [`duc-anh-2002/SWE-Misbehavior`](https://huggingface.co/datasets/duc-anh-2002/SWE-Misbehavior)**
+
+```python
+from datasets import load_dataset
+ds = load_dataset("duc-anh-2002/SWE-Misbehavior", "cg_lv1", split="test")
+```
+
+## 📑 Contents
+
+- [Repository Structure](#-repository-structure)
+- [Data Setup](#-data-setup)
+- [Installation](#-installation)
+- [Configuration](#-configuration)
+- [Running Experiments](#-running-experiments)
+- [Evaluation](#-evaluation)
+- [Resume & Restart](#-resume--restart)
+- [Common Issues](#-common-issues)
+- [Citation](#-citation)
+
+## 🗂 Repository Structure
+
+```
+SWE-Misbehavior/
+├── metadata/              # Task metadata (samples.json per subset) + prompt templates
+├── experiments/           # Agent runners for smolagents (sm), OpenHands (oh), agno (ag)
+├── evaluation/            # Rule-based and LLM-judge metrics
+├── Source_Code_no_code/   # Source tree with target function bodies removed (for cg)
+├── create_delif_env.py    # Builds the environment for the fm/delif subset
+└── all_files_*.txt        # File listings used to track environment changes
+```
+
+See [`metadata/README.md`](metadata/README.md), [`experiments/README.md`](experiments/README.md) and [`evaluation/README.md`](evaluation/README.md) for details.
+
+## 📦 Data Setup
+
+Download the DevEval source tree from [here](https://huggingface.co/datasets/LJ0815/DevEval/blob/main/Source_Code.tar.gz), move the archive into this folder, and run:
 
 ```bash
 tar -xzf Source_Code.tar.gz
@@ -8,11 +68,12 @@ find Source_Code -type d -name "__pycache__" -exec rm -r {} +
 python create_delif_env.py
 ```
 
-`all_*.txt` files and `Source_Code_no_code/` must be present before running any experiment.
+> [!IMPORTANT]
+> `all_*.txt` files and `Source_Code_no_code/` must be present before you run any experiment.
 
-For metadata, please refer to `metadata/README.md`.
+The task metadata is in `metadata/` (see [`metadata/README.md`](metadata/README.md)). It is also on the Hugging Face Hub as [`duc-anh-2002/SWE-Misbehavior`](https://huggingface.co/datasets/duc-anh-2002/SWE-Misbehavior), with a dataset viewer.
 
-## Installation
+## 🛠 Installation
 
 Requires **Python 3.12+**. Install only the framework(s) you need.
 
@@ -33,7 +94,7 @@ Also install shared dependencies used by all frameworks:
 uv pip install jedi
 ```
 
-## Configuration
+## 🔑 Configuration
 
 Open `experiments/common/config.py` and set:
 
@@ -52,7 +113,7 @@ cd experiments
 python run_cg_batch.py ...
 ```
 
-## Running Experiments
+## 🚀 Running Experiments
 
 All experiments are in `experiments/` and use a single `--framework` flag to select the agent backend.
 
@@ -112,7 +173,21 @@ results/<framework>/<experiment>/<lv>/<model_id>/
   <path>/<key>.log               # subprocess stdout/stderr (batch only)
 ```
 
-## Resume & Restart
+## 📊 Evaluation
+
+Evaluation uses two families of metrics:
+
+- **Rule-based metrics (code misbehaviors):** context changes, signature changes, and changes to the target function.
+- **LLM-judge metrics:** file reading, environment misbehaviors, and instruction following.
+
+```bash
+python evaluation/run_rb.py --model_id <model_id> --task cg/lv1 --outdir <agent_outputs> --truthdir Source_Code_no_code
+python evaluation/run_judge.py --outdir <judge_results> --json <prompts.jsonl>
+```
+
+See [`evaluation/README.md`](evaluation/README.md) for the full guide.
+
+## 🔁 Resume & Restart
 
 Completed samples are tracked across runs. When you re-run a batch script on a partially finished set, you will be prompted:
 
@@ -122,6 +197,23 @@ You've already run N samples. Proceed with next M? ('c' continue, 'r' restart, <
 
 To re-run only failed samples, press `r` to reset the tracker.
 
-## Common Issues
+## ⚠️ Common Issues
 
 **Windows** - `fcntl` is not available on Windows. The cross-platform lock in `common/config.py` falls back to `msvcrt` (advisory) or a no-op. For parallel batch runs on Windows, avoid very high `--parallel` values.
+
+## 📝 Citation
+
+If you find SWE-Misbehavior useful, please cite our paper:
+
+```bibtex
+@article{trong2026swe,
+  title={SWE-MISBEHAVIOR: Benchmarking and Mitigating Boundary Violations in Software Coding Agents},
+  author={Trong, Do Xuan and Nguyen, Duc Anh and Long, Do Xuan and Nguyen, Ngoc-Hai and Zhu, Tongyao and Dinh, Duy and Chik, Cayden and Dang, Cuong and Wu, Jiaying and Nguyen, Xuan-Phi and others},
+  journal={arXiv preprint arXiv:2610.18206},
+  year={2026}
+}
+```
+
+## 🙏 Acknowledgements
+
+This benchmark is built on the repositories collected by [DevEval](https://huggingface.co/datasets/LJ0815/DevEval).
